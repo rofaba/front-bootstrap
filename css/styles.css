@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif;
+}
+
+.personal-data img {
+  width: 60%;
+  padding: 20px;
+}
+
+header {
+  background-color: mediumpurple;
+  color: #fffafa;
+  display: flex;
+  align-items: center;
+}
+
+.personal-data {
+  background-color: #C0C0C0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.nav-boostrap {
+  color: #fffafa;
+}
+
+.navbar-toggler {
+  padding: 10px;
+  background-color: #C0C0C0;
+  color: #fffafa;
+}
+
+.navbar-nav {
+  display: flex;
+}
+.navbar-nav li > a {
+  color: #fffafa;
+}
+
+.navbar-toggle-icon {
+  color: #fffafa;
+}
+
+.nombre-principal,
+.nombre-principal-simbolo {
+  font-size: 42px;
+  font-weight: 700;
+  color: #fffafa;
+}
+
+.nombre-principal-simbolo {
+  letter-spacing: -2px;
+}
+.nombre-principal-simbolo span {
+  font-size: 40px;
+  padding: 5px;
+}
+
+.portfolio-simbolo {
+  color: #00008B;
+  font-weight: 900;
+  font-size: 2rem;
+  letter-spacing: -2px;
+}
+
+.portfolio {
+  color: #00008B;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.nombre-subtitulo {
+  color: #fffafa;
+  text-transform: capitalize;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+article img {
+  width: 300px;
+  height: 280px;
+}
+article p {
+  font-weight: bold;
+}
+
+.button-download {
+  display: flex;
+  width: 160px;
+  height: 60px;
+  border: solid 2px #fffafa;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  color: #fffafa;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input, label, form {
+  border-style: none;
+}
+
+footer {
+  background-color: #59698d !important;
+  color: #fffafa;
+}
+footer h3 {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+footer p {
+  font-size: 20px;
+  line-height: 8px;
+}
+footer .personal-data-inferior {
+  background-color: #59698d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  color: #fffafa;
+}
+.social-media img {
+  color: #fffafa;
+}/*# sourceMappingURL=styles.css.map */
